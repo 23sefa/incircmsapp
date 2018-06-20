@@ -1,0 +1,44 @@
+Application path: /cms/onlinedestek/php/app.php?install-wizard-2
+2018-06-19 19:40:50 [error] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Stack trace:
+/home/incirsistem/public_html/cms/onlinedestek/php/service/Database.php:46 (Logger:error())
+/home/incirsistem/public_html/cms/onlinedestek/php/service/Database.php:64 (Database:connect())
+/home/incirsistem/public_html/cms/onlinedestek/php/service/Database.php:25 (Database:reconnect())
+/home/incirsistem/public_html/cms/onlinedestek/php/lib/Service.php:17 (Database:onRegister())
+/home/incirsistem/public_html/cms/onlinedestek/php/lib/ServiceContainer.php:47 (Service:setServiceContainer())
+/home/incirsistem/public_html/cms/onlinedestek/php/lib/Controller.php:33 (ServiceContainer:get())
+/home/incirsistem/public_html/cms/onlinedestek/php/controller/InstallController.php:74 (Controller:get())
+/home/incirsistem/public_html/cms/onlinedestek/php/app/Application.php:155 (InstallController:wizard2Action())
+/home/incirsistem/public_html/cms/onlinedestek/php/app/Application.php:79 (Application:runAction())
+/home/incirsistem/public_html/cms/onlinedestek/php/app.php:26 (Application:run())
+
+Application path: /cms/onlinedestek/php/app.php?install-wizard-2
+2018-06-19 19:40:50 Undefined index: smtp on line 78 in /home/incirsistem/public_html/cms/onlinedestek/views/admin/install-wizard-2.html
+2018-06-19 19:40:50 Undefined index: smtp on line 151 in /home/incirsistem/public_html/cms/onlinedestek/views/admin/install-wizard-2.html
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:42:31 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:42:36 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:42:41 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:42:46 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:42:51 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:42:56 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:43:01 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:43:06 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:43:11 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-get-typing-status
+2018-06-19 19:43:16 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+Application path: /cms/onlinedestek/php/app.php?operator-update-typing-status
+2018-06-19 19:43:19 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+2018-06-19 19:43:19 parse_ini_file(/home/incirsistem/public_html/cms/onlinedestek/php/../data/memory.dat): failed to open stream: No such file or directory on line 97 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+2018-06-19 19:43:19 array_merge(): Argument #1 is not an array on line 102 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+2018-06-19 19:43:19 array_keys() expects parameter 1 to be array, boolean given on line 104 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+2018-06-19 19:43:19 Invalid argument supplied for foreach() on line 104 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
+2018-06-19 19:43:19 Invalid argument supplied for foreach() on line 79 in /home/incirsistem/public_html/cms/onlinedestek/php/service/Memory.php
